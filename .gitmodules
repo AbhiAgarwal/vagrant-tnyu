@@ -1,0 +1,21 @@
+[submodule "cookbooks/rvm"]
+	path = cookbooks/rvm
+	url = git://github.com/fnichol/chef-rvm.git
+[submodule "site"]
+	path = site
+	url = git@github.com:TechAtNYU/tech-nyu-site.git
+[submodule "cookbooks/nodejs"]
+	path = cookbooks/nodejs
+	url = git://github.com/mdxp/nodejs-cookbook.git
+[submodule "cookbooks/git"]
+	path = cookbooks/git
+	url = git://github.com/opscode-cookbooks/git.git
+[submodule "cookbooks/build-essential"]
+	path = cookbooks/build-essential
+	url = git://github.com/opscode-cookbooks/build-essential.git
+[submodule "cookbooks/vim"]
+	path = cookbooks/vim
+	url = git://github.com/opscode-cookbooks/vim.git
+[submodule "cookbooks/apt"]
+	path = cookbooks/apt
+	url = git://github.com/opscode-cookbooks/apt.git
