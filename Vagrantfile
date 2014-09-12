@@ -5,6 +5,7 @@ Vagrant::Config.run do |config|
 	config.vm.define :nodejsvm do |nodejs_config|
 		nodejs_config.vm.box = "hashicorp/precise64"
 		config.vm.network :private_network, ip: '10.0.33.34'
+		config.omnibus.chef_version = :latest
 		nodejs_config.vm.provision :chef_solo do |chef|
 			chef.cookbooks_path = "cookbooks"
 			chef.add_recipe "build-essential"
