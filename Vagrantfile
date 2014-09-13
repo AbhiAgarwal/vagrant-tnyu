@@ -16,4 +16,4 @@ Vagrant::Config.run do |config|
 			chef.add_recipe "rvm"
 		end
 	end
- end
+end
