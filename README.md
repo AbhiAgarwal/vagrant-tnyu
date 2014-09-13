@@ -14,6 +14,14 @@ If it asks for a password give the password: `vagrant`
 
 `bash run.sh`
 
+The next command you might have to control-c out of it. It has a `watch` function, which looks for changes so it'll keep running forever.
+
+`gulp --require gulp-livescript`
+
+`cd build`
+
+`node server.js`
+
 # Running each time
 
 `vagrant up`
@@ -31,6 +39,10 @@ If it asks for a password give the password: `vagrant`
 # Turning it off
 
 `vagrant halt`
+
+# Alternatives
+
+`gulp --require gulp-livescript` or `gulp dev --require gulp-livescript`
 
 # Notes
 
