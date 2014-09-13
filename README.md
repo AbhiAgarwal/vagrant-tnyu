@@ -18,6 +18,8 @@
 
 Run these commands in this order:
 
+`git submodule update --init`
+
 `vagrant up`
 
 `vagrant ssh`
