@@ -1,9 +1,10 @@
 # The following gems are necessary for compiling the Sass files.
-gem install sass
-gem install sass-globbing
-gem install compass --pre
-gem install breakpoint
+sudo gem install sass
+sudo gem install sass-globbing
+sudo gem install compass --pre
+sudo gem install breakpoint
 
 # For compiling the LiveScript and Sass files.
-npm install gulp -g
-npm install
+sudo npm install gulp -g
+cd site
+sudo npm install
