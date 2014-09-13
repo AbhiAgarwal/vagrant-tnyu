@@ -1,5 +1,8 @@
 # Notes
 
+- This is only the environment. I have let the site be a submodule.
+	- It will just import the site and make it is own little git file. I'll also make sure that it pulls each submodule at some point when it runs.
+	- I did this because I don't want people to get confused what the environment is there for. 
 - You must have Virtualbox installed on your computer. 
 	- https://www.virtualbox.org/
 	- You don't need to download any specific OS or any environments. This will setup the rest for you!
@@ -9,6 +12,7 @@
 	- We can fix this by installing the chef-solo mod
 		- `gem install chef`
 		- Fixes this bug, but you can run into some complications that you should solve.
+
 
 # Running first-time
 
